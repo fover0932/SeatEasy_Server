@@ -1,0 +1,1405 @@
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-03-13 10:31:31 +0800
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/hellos" for 127.0.0.1 at 2013-03-13 10:31:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/hellos"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-03-13 10:31:53 +0800
+
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-03-13 10:33:09 +0800
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-03-13 10:34:18 +0800
+Connecting to database specified by database.yml
+Processing by HelloController#index as HTML
+  Rendered hello/index.html.erb within layouts/application (2.5ms)
+Compiled hello.css  (38ms)  (pid 5023)
+Compiled application.css  (66ms)  (pid 5023)
+Compiled jquery.js  (2ms)  (pid 5023)
+Compiled jquery_ujs.js  (0ms)  (pid 5023)
+Compiled hello.js  (172ms)  (pid 5023)
+Compiled application.js  (222ms)  (pid 5023)
+Completed 200 OK in 373ms (Views: 372.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 10:34:19 +0800
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 10:34:19 +0800
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/hello.css?body=1" for 127.0.0.1 at 2013-03-13 10:34:19 +0800
+Served asset /hello.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 10:34:19 +0800
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 10:34:19 +0800
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2013-03-13 10:34:19 +0800
+Served asset /hello.js - 200 OK (2ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+  [1m[36m (13.6ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (245.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (158.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (3.8ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateMybooks (20130313024614)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "mybooks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "title" varchar(255), "content" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130313024614')[0m
+  [1m[35m (257.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-03-13 10:47:34 +0800
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/mybook" for 127.0.0.1 at 2013-03-13 10:47:44 +0800
+
+ActionController::RoutingError (No route matches [GET] "/mybook"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.1ms)[0m  [1mSELECT "mybooks".* FROM "mybooks" [0m
+  Rendered mybooks/index.html.erb within layouts/application (0.9ms)
+Compiled mybooks.css  (6ms)  (pid 5103)
+Compiled scaffolds.css  (12ms)  (pid 5103)
+Compiled application.css  (50ms)  (pid 5103)
+Compiled mybooks.js  (151ms)  (pid 5103)
+Compiled application.js  (169ms)  (pid 5103)
+Completed 200 OK in 310ms (Views: 267.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /mybooks.css - 200 OK (3ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /mybooks.js - 200 OK (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/mybooks/new" for 127.0.0.1 at 2013-03-13 10:47:54 +0800
+Processing by MybooksController#new as HTML
+  Rendered mybooks/_form.html.erb (6.3ms)
+  Rendered mybooks/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 10:47:54 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:54 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:54 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 10:47:54 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/mybooks" for 127.0.0.1 at 2013-03-13 10:49:20 +0800
+Processing by MybooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sKZBimiY+H38TjxueWRw7m2IEaSUNtFXOSy+LoXwH3U=", "mybook"=>{"name"=>"BLP", "title"=>"Beginning Linux Programming", "content"=>"great book for linux freshman!"}, "commit"=>"Create Mybook"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (149.3ms)[0m  [1mINSERT INTO "mybooks" ("content", "created_at", "name", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["content", "great book for linux freshman!"], ["created_at", Wed, 13 Mar 2013 02:49:20 UTC +00:00], ["name", "BLP"], ["title", "Beginning Linux Programming"], ["updated_at", Wed, 13 Mar 2013 02:49:20 UTC +00:00]]
+  [1m[35m (354.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/mybooks/1
+Completed 302 Found in 515ms (ActiveRecord: 503.7ms)
+
+
+Started GET "/mybooks/1" for 127.0.0.1 at 2013-03-13 10:49:20 +0800
+Processing by MybooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMybook Load (0.5ms)[0m  [1mSELECT "mybooks".* FROM "mybooks" WHERE "mybooks"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered mybooks/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 35ms (Views: 29.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:21 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Processing by MybooksController#index as HTML
+  [1m[35mMybook Load (0.1ms)[0m  SELECT "mybooks".* FROM "mybooks" 
+  Rendered mybooks/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 10:49:23 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Connecting to database specified by database.yml
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.1ms)[0m  [1mSELECT "mybooks".* FROM "mybooks" [0m
+  Rendered mybooks/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 115ms (Views: 51.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /mybooks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /mybooks.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:21 +0800
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Processing by MybooksController#index as HTML
+  [1m[35mMybook Load (0.3ms)[0m  SELECT "mybooks".* FROM "mybooks" 
+  Rendered mybooks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:01:24 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/phpmyadmin" for 127.0.0.1 at 2013-03-13 11:04:14 +0800
+
+ActionController::RoutingError (No route matches [GET] "/phpmyadmin"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/phpmyadmin" for 127.0.0.1 at 2013-03-13 11:32:22 +0800
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/phpmyadmin"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.1ms)[0m  [1mSELECT "mybooks".* FROM "mybooks" [0m
+  Rendered mybooks/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 91ms (Views: 42.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /mybooks.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /mybooks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:29 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/mybooks/new" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Processing by MybooksController#new as HTML
+  Rendered mybooks/_form.html.erb (6.0ms)
+  Rendered mybooks/new.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:45 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Processing by MybooksController#index as HTML
+  [1m[35mMybook Load (0.2ms)[0m  SELECT "mybooks".* FROM "mybooks" 
+  Rendered mybooks/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /mybooks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:32:47 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+  [1m[36m (851.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (643.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (4.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateMybooks (20130313024614)
+  [1m[35m (194.4ms)[0m  CREATE TABLE `mybooks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `title` varchar(255), `content` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (133.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20130313024614')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/books" for 127.0.0.1 at 2013-03-13 11:55:29 +0800
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/books"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 11:55:38 +0800
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.5ms)[0m  [1mSELECT `mybooks`.* FROM `mybooks` [0m
+  Rendered mybooks/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 87ms (Views: 39.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /mybooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:39 +0800
+Served asset /mybooks.css - 304 Not Modified (1ms)
+
+
+Started GET "/mybooks/new" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Processing by MybooksController#new as HTML
+  Rendered mybooks/_form.html.erb (6.5ms)
+  Rendered mybooks/new.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 42ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:42 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 11:55:44 +0800
+Processing by MybooksController#index as HTML
+  [1m[35mMybook Load (0.2ms)[0m  SELECT `mybooks`.* FROM `mybooks` 
+  Rendered mybooks/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 11:55:45 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 12:08:40 +0800
+Connecting to database specified by database.yml
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.2ms)[0m  [1mSELECT `mybooks`.* FROM `mybooks` [0m
+  Rendered mybooks/index.html.erb within layouts/application (3.2ms)
+Compiled home.css  (62ms)  (pid 6300)
+Compiled application.css  (80ms)  (pid 6300)
+Compiled home.js  (286ms)  (pid 6300)
+Compiled application.js  (309ms)  (pid 6300)
+Completed 200 OK in 635ms (Views: 594.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /mybooks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /home.js - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /jquery.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /mybooks.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:41 +0800
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 12:08:47 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-13 12:12:18 +0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 53ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /mybooks.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /mybooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:19 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.4ms)[0m  [1mSELECT `mybooks`.* FROM `mybooks` [0m
+  Rendered mybooks/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 72ms (Views: 26.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:24 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /mybooks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 12:12:45 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-13 12:15:36 +0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 54ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /mybooks.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /mybooks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-13 12:15:37 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-15 11:53:20 +0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 780ms (Views: 778.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /mybooks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /jquery.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /mybooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:23 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-15 11:53:26 +0800
+Processing by MybooksController#index as HTML
+  [1m[36mMybook Load (0.9ms)[0m  [1mSELECT `mybooks`.* FROM `mybooks` [0m
+  Rendered mybooks/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 343ms (Views: 54.5ms | ActiveRecord: 123.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /mybooks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:27 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/mybooks/new" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Processing by MybooksController#new as HTML
+  Rendered mybooks/_form.html.erb (81.1ms)
+  Rendered mybooks/new.html.erb within layouts/application (113.8ms)
+Completed 200 OK in 142ms (Views: 136.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /mybooks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:28 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/mybooks" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Processing by MybooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sKZBimiY+H38TjxueWRw7m2IEaSUNtFXOSy+LoXwH3U=", "mybook"=>{"name"=>"ldd", "title"=>"linux device driver", "content"=>"before step into kernel"}, "commit"=>"Create Mybook"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (224.9ms)[0m  [1mINSERT INTO `mybooks` (`content`, `created_at`, `name`, `title`, `updated_at`) VALUES ('before step into kernel', '2013-03-15 03:53:59', 'ldd', 'linux device driver', '2013-03-15 03:53:59')[0m
+  [1m[35m (195.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/mybooks/1
+Completed 302 Found in 658ms (ActiveRecord: 420.5ms)
+
+
+Started GET "/mybooks/1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Processing by MybooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMybook Load (50.5ms)[0m  [1mSELECT `mybooks`.* FROM `mybooks` WHERE `mybooks`.`id` = 1 LIMIT 1[0m
+  Rendered mybooks/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 114ms (Views: 59.9ms | ActiveRecord: 50.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-15 11:53:59 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/mybooks" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Processing by MybooksController#index as HTML
+  [1m[35mMybook Load (0.5ms)[0m  SELECT `mybooks`.* FROM `mybooks` 
+  Rendered mybooks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /mybooks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /mybooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-15 11:54:01 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-16 00:39:18 +0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 747ms (Views: 745.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /scaffolds.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /jquery.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /mybooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /mybooks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-16 00:39:21 +0800
+Served asset /application.js - 304 Not Modified (28ms)
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+  [1m[36m (616.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateMybooks (20130313024614)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-16 08:15:41 +0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 203ms (Views: 202.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mybooks.css?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /mybooks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mybooks.js?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /mybooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-16 08:15:42 +0800
+Served asset /application.js - 304 Not Modified (9ms)
